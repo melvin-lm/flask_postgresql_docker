@@ -12,7 +12,7 @@ Here is a vanilla Dockerized Flask web application offering CRUD operations on a
 1. Open your terminal and go where you'd like to clone this repository  
 `$ cd /path/to/clone/repo`
 
-2. Get this repository and go to the root project directory
+2. Get this repository and go to the root project directory  
 `$ git clone https://github.com/melvin-lm/flask_postgresql_docker && cd flask_postgresql_docker`
 
 3. From this directory (where the docker-compose.yml file is), run the command  
