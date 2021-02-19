@@ -17,7 +17,7 @@ This app allows you through HTTP requests (POST, GET, PUT, DELETE) to Create, Re
 `$ git clone https://github.com/melvin-lm/flask_postgresql_docker && cd flask_postgresql_docker`
 
 3. Make the entrypoint executable by running  
-`chmod +x services/web/entrypoint.sh`
+`$ chmod +x services/web/entrypoint.sh`
 
 4. From this directory (where the docker-compose.yml file is), run the command  
 `$ docker-compose up -d --build`
