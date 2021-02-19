@@ -1,7 +1,7 @@
 # Flask - PostgreSQL - Docker 
 
 ## What's in the box? 
-Here is a vanilla Dockerized CRUD API with Flask and PostgreSQL.
+Here is a vanilla Dockerized CRUD API with Flask and PostgreSQL.  
 This app allows you through HTTP requests (POST, GET, PUT, DELETE) to Create, Retrieve, Update and Delete songs in a music database.
 
 ## Requirements
