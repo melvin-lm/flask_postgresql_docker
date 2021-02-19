@@ -36,5 +36,7 @@ The simplest way to add data to the database is using Postman
 From the root project directory (it will stop and remove the containers)  
 `$ docker-compose down`
 
-If you want to clear the database, use -v option to delete volumes  
+If you want to clear the database as well, use -v option to delete volumes  
 `$ docker-compose down -v`
+
+If you did not delete the volumes, by running `docker-compose up -d` again, you'll see that the database is persistent.
