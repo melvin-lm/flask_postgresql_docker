@@ -21,14 +21,15 @@ Here is a vanilla Dockerized Flask web application offering CRUD operations on a
 You're all done!
 
 ## How to see it works?
-At first run, the database is empty  
-Go to `http://localhost:5000/songs`
+At first run, the database is empty. You can make a simple get request to the following URL  
+`http://localhost:5000/songs`
 
 The simplest way to add data to the database is using Postman  
+
 ![image](images/postman.png)
 
 ## How to stop the containers?
-If you want to keep what's in the database for future use, from the root project directory (it will stop and delete the containers)  
+From the root project directory (it will stop and remove the containers)  
 `$ docker-compose down`
 
 If you want to clear the database, use -v option to delete volumes  
