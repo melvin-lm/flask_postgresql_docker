@@ -5,7 +5,7 @@ Here is a vanilla Dockerized CRUD API with Flask and PostgreSQL.
 This app allows you through HTTP requests (POST, GET, PUT, DELETE) to Create, Retrieve, Update and Delete songs in a music database.
 
 ## Requirements
-* Docker https://www.docker.com
+* Docker https://www.docker.com (make sure to install Compose as we need it to run multiple containers)
 * Git https://git-scm.com (optional: useful for getting this repo)
 * Postman https://www.postman.com 
 
