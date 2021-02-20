@@ -8,7 +8,7 @@ WORKDIR usr/src/app
 ENV PYTHONDONTWRITEBYTECODE 1
 ENV PYTHONUNBUFFERED 1
 
-# install system dependencies
+# install system dependencies (netcat: useful for scanning port. i.e make sure database is up and healthy, see entrypoint)
 RUN apt-get update && apt-get install -y netcat
 
 # install dependencies
